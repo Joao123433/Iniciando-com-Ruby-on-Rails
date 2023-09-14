@@ -12,6 +12,7 @@ gem "sprockets-rails"
 # Use sqlite3 as the database for Active Record
 gem "mysql2"
 
+# use bootstrap and sassc-rails for style the page [https://github.com/twbs/bootstrap-sass]
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sassc-rails', '>= 2.1.0'
 

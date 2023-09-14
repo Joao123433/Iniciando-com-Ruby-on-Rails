@@ -1,2 +1,31 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+$gra-medium-light: #EAEAEA;
+
+footer {
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid $gra-medium-light;
+    color: $gray-light;
+    a {
+        color: $gray;
+        &:hover {
+            color: $gray-darker;
+        }
+    }
+
+    small {
+        float: left;
+        padding-left: 5px;
+    }
+    ul {
+        float: right;
+        list-style-type: none;
+        padding-right: 5px;
+        li {
+            float: left;
+            margin-left: 15px;
+        }
+    }
+}
